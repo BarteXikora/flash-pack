@@ -1,6 +1,8 @@
+import AppTheme from './theme/AppTheme'
+
 const App = () => {
   return (
-    <div>Hello, World!</div>
+    <AppTheme>Hello, World!</AppTheme>
   )
 }
 
