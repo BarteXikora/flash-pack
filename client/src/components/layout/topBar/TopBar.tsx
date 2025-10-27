@@ -1,5 +1,5 @@
 import StyledTopBar from './TopBar.styles'
-import TopBarLogo from '../TopBarLogo/TopBarLogo'
+import TopBarLogo from '../topBarLogo/TopBarLogo'
 
 import iconArrowLeft from '../../../assets/icon-arrow-left.svg'
 import iconHamburger from '../../../assets/icon-hamburger.svg'
