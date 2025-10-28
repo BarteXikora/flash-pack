@@ -32,6 +32,7 @@ const StyledDisabled = css`
 `
 
 const StyledButton = styled.button<ButtonProps>`
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,7 +45,6 @@ const StyledButton = styled.button<ButtonProps>`
     color: ${p => p.theme.color.white};
     padding: 0 ${p => p.theme.gap.big};
     max-width: 100%;
-    overflow: hidden;
 
     ${p => p.theme.text.body};
 
