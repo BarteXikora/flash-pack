@@ -7,6 +7,8 @@ const StyledBoxButton = styled.div`
         align-items: start;
         padding: ${p => p.theme.gap.medium + ' ' + p.theme.gap.big};
         gap: ${p => p.theme.gap.extraSmall};
+        margin-bottom: ${p => p.theme.gap.medium};
+        width: 100%;
 
         h3, span {
             overflow: hidden;
