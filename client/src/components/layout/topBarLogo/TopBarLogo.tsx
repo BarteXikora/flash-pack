@@ -1,5 +1,5 @@
 import StyledTopBarLogo from './TopBarLogo.styles'
-import logo from '../../../assets/icon-logo.svg'
+import logo from '@assets/icon-logo.svg'
 
 const TopBarLogo = () => {
     return (

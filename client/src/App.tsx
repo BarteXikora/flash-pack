@@ -1,5 +1,5 @@
-import AppTheme from './theme/AppTheme'
-import AppRouter from './router/AppRouter'
+import AppTheme from '@/theme/AppTheme'
+import AppRouter from '@/router/AppRouter'
 
 const App = () => {
   return (
