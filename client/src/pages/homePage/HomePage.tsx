@@ -1,10 +1,10 @@
-import SectionTitle from '../../components/layout/sectionTitle/SectionTitle'
-import BoxButton from '../../components/layout/boxButton/BoxButton'
-import Separator from '../../components/ui/separator/Separator'
-import Button from '../../components/ui/button/Button'
+import SectionTitle from '@components/layout/sectionTitle/SectionTitle'
+import BoxButton from '@components/layout/boxButton/BoxButton'
+import Separator from '@components/ui/separator/Separator'
+import Button from '@components/ui/button/Button'
 
-import type BoxButtonProps from '../../components/layout/boxButton/boxButton.types'
-import iconAddBox from '../../assets/icon-add-box.svg'
+import type BoxButtonProps from '@components/layout/boxButton/boxButton.types'
+import iconAddBox from '@assets/icon-add-box.svg'
 
 const HomePage = () => {
     const __boxes: (BoxButtonProps & { id: string })[] = [{
