@@ -45,6 +45,7 @@ const StyledButton = styled.button<ButtonProps>`
     color: ${p => p.theme.color.white};
     padding: 0 ${p => p.theme.gap.big};
     max-width: 100%;
+    margin: 0 auto;
 
     ${p => p.theme.text.body};
 
