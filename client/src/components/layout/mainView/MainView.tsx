@@ -1,6 +1,6 @@
 import StyledMainView from './MainView.style'
 
-import TopBar from '../topBar/TopBar'
+import TopBar from '@components/layout/topBar/TopBar'
 import { Outlet } from 'react-router-dom'
 
 const MainView = () => {

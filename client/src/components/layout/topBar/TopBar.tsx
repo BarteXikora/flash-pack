@@ -1,8 +1,8 @@
 import StyledTopBar from './TopBar.styles'
-import TopBarLogo from '../topBarLogo/TopBarLogo'
+import TopBarLogo from '@components/layout/topBarLogo/TopBarLogo'
 
-import iconArrowLeft from '../../../assets/icon-arrow-left.svg'
-import iconHamburger from '../../../assets/icon-hamburger.svg'
+import iconArrowLeft from '@assets/icon-arrow-left.svg'
+import iconHamburger from '@assets/icon-hamburger.svg'
 
 import type TopBarProps from './topBar.types'
 
