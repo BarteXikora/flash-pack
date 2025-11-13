@@ -1,8 +1,8 @@
 import StyledBoxButton from './BoxButton.styles'
-import Button from '../../ui/button/Button'
-import Badge from '../../ui/badge/Badge'
+import Button from '@components/ui/button/Button'
+import Badge from '@components/ui/badge/Badge'
 
-import declineByNumber from '../../../utils/declineByNumber/declineByNumber'
+import declineByNumber from '@utils/declineByNumber/declineByNumber'
 
 import type BoxButtonProps from './boxButton.types'
 
